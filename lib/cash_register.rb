@@ -11,7 +11,6 @@ class CashRegister
   
     self.total += price * quantity 
     quantity.times {items<<title }
-  end 
     self.last_transaction = price * quantity 
   end 
   
